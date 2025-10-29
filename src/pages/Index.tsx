@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import Icon from '@/components/ui/icon';
@@ -28,13 +28,13 @@ const Index = () => {
             <h1 className="text-2xl font-bold text-white">SeaWay Shipping</h1>
           </div>
           <div className="hidden md:flex gap-6">
-            {['home', 'about', 'services', 'fleet', 'faq', 'contact'].map((item) => (
+            {['home', 'about', 'services', 'contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
                 className="text-white hover:text-accent transition-colors capitalize font-semibold"
               >
-                {item === 'home' ? 'Home' : item === 'about' ? 'About Us' : item === 'services' ? 'Services' : item === 'fleet' ? 'Our Fleet' : item === 'faq' ? 'FAQ' : 'Contact'}
+                {item === 'home' ? 'Home' : item === 'about' ? 'About Us' : item === 'services' ? 'Services' : 'Contact'}
               </button>
             ))}
           </div>
@@ -161,124 +161,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="fleet" className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-primary">Our Fleet</h2>
-          <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                name: 'Atlantic Explorer',
-                type: 'Container Vessel',
-                capacity: '8,500 TEU',
-                year: '2021',
-              },
-              {
-                name: 'Pacific Pioneer',
-                type: 'Bulk Carrier',
-                capacity: '75,000 DWT',
-                year: '2020',
-              },
-              {
-                name: 'Ocean Spirit',
-                type: 'Multi-Purpose',
-                capacity: '12,000 tons',
-                year: '2022',
-              },
-              {
-                name: 'Nordic Star',
-                type: 'Container Vessel',
-                capacity: '10,000 TEU',
-                year: '2023',
-              },
-              {
-                name: 'Mediterranean Queen',
-                type: 'RoRo Vessel',
-                capacity: '4,000 vehicles',
-                year: '2021',
-              },
-              {
-                name: 'Baltic Trader',
-                type: 'General Cargo',
-                capacity: '15,000 tons',
-                year: '2020',
-              },
-            ].map((vessel, index) => (
-              <Card key={index} className="overflow-hidden hover:shadow-2xl transition-all duration-300">
-                <div className="h-48 bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                  <Icon name="Ship" className="text-white" size={80} />
-                </div>
-                <CardHeader>
-                  <CardTitle className="text-2xl text-primary">{vessel.name}</CardTitle>
-                  <CardDescription className="text-lg font-semibold text-secondary">
-                    {vessel.type}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-2">
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Capacity:</span>
-                      <span className="font-semibold">{vessel.capacity}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Year Built:</span>
-                      <span className="font-semibold">{vessel.year}</span>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      <section id="faq" className="py-20 bg-gradient-to-b from-background to-white">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-primary">
-            Frequently Asked Questions
-          </h2>
-          <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
-          
-          <Accordion type="single" collapsible className="space-y-4">
-            {[
-              {
-                question: 'What areas do you serve?',
-                answer: 'We provide shipping services worldwide, covering all major trade routes across 6 continents and over 100 countries.',
-              },
-              {
-                question: 'How can I track my shipment?',
-                answer: 'Once your cargo is loaded, you will receive a tracking number. You can use this number on our online portal to track your shipment in real-time.',
-              },
-              {
-                question: 'What types of cargo do you handle?',
-                answer: 'We handle all types of cargo including containers, bulk cargo (dry and liquid), break bulk, vehicles, and project cargo.',
-              },
-              {
-                question: 'Do you offer insurance?',
-                answer: 'Yes, we offer comprehensive cargo insurance options to protect your shipment during transit. Our team can help you choose the right coverage.',
-              },
-              {
-                question: 'What is your average transit time?',
-                answer: 'Transit times vary depending on the route and type of service. Typical ocean transit ranges from 15-45 days. Contact us for specific route information.',
-              },
-              {
-                question: 'How do I get a quote?',
-                answer: 'You can request a quote by filling out the contact form below or calling our customer service team. We will respond within 24 hours.',
-              },
-            ].map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="bg-white border-2 rounded-lg px-6">
-                <AccordionTrigger className="text-lg font-semibold text-primary hover:text-secondary">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground leading-relaxed">
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </div>
-      </section>
 
       <section id="contact" className="py-20 bg-primary text-white">
         <div className="container mx-auto px-4">
