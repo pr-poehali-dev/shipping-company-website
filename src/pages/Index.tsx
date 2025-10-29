@@ -25,7 +25,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Icon name="Anchor" className="text-white" size={32} />
-            <h1 className="text-2xl font-bold text-white">SeaWay Shipping</h1>
+            <h1 className="text-2xl font-bold text-white">T-SHIPPING LIMITED</h1>
           </div>
           <div className="hidden md:flex gap-6">
             {['home', 'about', 'services', 'contact'].map((item) => (
@@ -50,10 +50,10 @@ const Index = () => {
       >
         <div className="container mx-auto px-4 text-center text-white">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Global Maritime Excellence
+            T-SHIPPING LIMITED
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto font-light">
-            Your trusted partner in worldwide shipping solutions
+            Technical and Commercial Management of All Types of Vessels
           </p>
           <Button
             size="lg"
@@ -79,26 +79,20 @@ const Index = () => {
               />
             </div>
             <div>
-              <h3 className="text-3xl font-bold mb-6 text-primary">Leading the Way in Maritime Transport</h3>
+              <h3 className="text-3xl font-bold mb-6 text-primary">About T-SHIPPING LIMITED</h3>
               <p className="text-lg mb-4 text-muted-foreground leading-relaxed">
-                With over 25 years of experience in the shipping industry, SeaWay Shipping has established itself as a reliable partner for businesses worldwide. We pride ourselves on delivering cargo safely, efficiently, and on time.
+                T-SHIPPING LIMITED was registered in Hong Kong on August 5, 2021. We have extensive experience in managing vessels such as Tankers, Chemical Tankers and LPG tankers. Since 2022, we also began managing dry cargo vessels.
               </p>
-              <p className="text-lg mb-6 text-muted-foreground leading-relaxed">
-                Our commitment to excellence and customer satisfaction has made us one of the most trusted names in maritime logistics.
-              </p>
-              <div className="grid grid-cols-3 gap-4 mt-8">
-                <div className="text-center p-4 bg-primary/5 rounded-xl">
-                  <div className="text-4xl font-bold text-primary mb-2">25+</div>
-                  <div className="text-sm text-muted-foreground">Years Experience</div>
-                </div>
-                <div className="text-center p-4 bg-primary/5 rounded-xl">
-                  <div className="text-4xl font-bold text-primary mb-2">50+</div>
-                  <div className="text-sm text-muted-foreground">Vessels</div>
-                </div>
-                <div className="text-center p-4 bg-primary/5 rounded-xl">
-                  <div className="text-4xl font-bold text-primary mb-2">100+</div>
-                  <div className="text-sm text-muted-foreground">Countries</div>
-                </div>
+              <div className="space-y-3 mb-6">
+                <p className="text-base text-muted-foreground leading-relaxed">
+                  <strong className="text-primary">Director:</strong> Graduate of the Maritime Academy, department of Economics Management on Maritime Transport. Since 2010, has been working as a director in various shipping companies.
+                </p>
+                <p className="text-base text-muted-foreground leading-relaxed">
+                  <strong className="text-primary">DPA:</strong> Extensive experience in tanker operations worldwide, vessel master in container transportation with US shipping companies, and offshore construction vessels/drilling rigs master. USCG certified unlimited master with DPA certification from Quebec, CA Virtual Maritime Academy.
+                </p>
+                <p className="text-base text-muted-foreground leading-relaxed">
+                  <strong className="text-primary">Technical Manager:</strong> Graduate of Maritime Academy, faculty of Marine Engineering. Past five years working as Senior Chief Engineer aboard VLCCs tankers with vast experience as technical manager in large shipping companies.
+                </p>
               </div>
             </div>
           </div>
@@ -107,56 +101,78 @@ const Index = () => {
 
       <section id="services" className="py-20 bg-gradient-to-b from-background to-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-primary">Our Services</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-primary">Professional Services</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
           
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                icon: 'Ship',
-                title: 'Container Shipping',
-                description: 'Reliable container transport services across all major trade routes with full tracking capabilities.',
-              },
-              {
-                icon: 'Anchor',
-                title: 'Bulk Cargo',
-                description: 'Specialized handling of dry and liquid bulk cargo with modern fleet and expert crew.',
-              },
-              {
-                icon: 'Package',
-                title: 'Break Bulk',
-                description: 'Safe transportation of oversized and heavy cargo that cannot fit in standard containers.',
-              },
-              {
-                icon: 'Truck',
-                title: 'Logistics Solutions',
-                description: 'End-to-end supply chain management including warehousing and distribution services.',
-              },
-              {
-                icon: 'Clock',
-                title: 'Express Shipping',
-                description: 'Time-critical shipping solutions with guaranteed delivery schedules.',
-              },
-              {
-                icon: 'Shield',
-                title: 'Cargo Insurance',
-                description: 'Comprehensive insurance coverage to protect your valuable cargo during transit.',
-              },
-            ].map((service, index) => (
-              <Card key={index} className="hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2">
-                <CardHeader>
-                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                    <Icon name={service.icon} className="text-primary" size={32} />
+          <div className="max-w-6xl mx-auto space-y-8">
+            <Card className="border-2">
+              <CardHeader>
+                <div className="flex items-center gap-4">
+                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                    <Icon name="Ship" className="text-primary" size={32} />
                   </div>
-                  <CardTitle className="text-2xl text-primary">{service.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-base leading-relaxed">
-                    {service.description}
-                  </CardDescription>
-                </CardContent>
-              </Card>
-            ))}
+                  <CardTitle className="text-3xl text-primary">Commercial Management</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-base text-muted-foreground leading-relaxed mb-4">
+                  T-SHIPPING LIMITED provides services of cargo transportation by its own sea vessel as well as transportation of cargoes by sea and river vessels of our partners. We also provide commercial management, including chartering and operation of vessels.
+                </p>
+                <p className="text-base text-muted-foreground leading-relaxed">
+                  Our chartering team identifies and evaluates opportunities to conclude profitable charters, negotiates and concludes contracts for sea transportation. The company has contacts with major oil companies and commodity traders around the world and concludes charter contracts on both spot market and long term charters. The operations team is responsible for: supporting officers and crew on board for safe and efficient voyage performance; ensuring monitoring of port charges; providing high quality bunker at economical prices; monitoring compliance with all terms and conditions in accordance with charter parties.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2">
+              <CardHeader>
+                <div className="flex items-center gap-4">
+                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                    <Icon name="Settings" className="text-primary" size={32} />
+                  </div>
+                  <CardTitle className="text-3xl text-primary">Technical Management</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-base text-muted-foreground leading-relaxed">
+                  T-SHIPPING LIMITED manages and provides technical supervision of the vessels in the safest and most efficient way possible to meet the requirements of the shipowner, as well as the registry societies and flag state regulations of the vessel. Also the rules of the port of loading and discharging, charterers and other interested parties in full compliance with the International Safety Management Code. Our team closely monitors compliance with the MLC regulations.
+                </p>
+              </CardContent>
+            </Card>
+
+            <div className="mt-12">
+              <h3 className="text-3xl font-bold text-center mb-8 text-primary">Experience in Managing Vessels</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <Card className="border-2">
+                  <CardHeader>
+                    <CardTitle className="text-2xl text-primary">Ocean Bulkers</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="space-y-2 text-muted-foreground">
+                      <li>• DWT 24,000 / Draft 9.0 meters</li>
+                      <li>• DWT 10,000 / Draft 8.3 meters</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+
+                <Card className="border-2">
+                  <CardHeader>
+                    <CardTitle className="text-2xl text-primary">Sea and River-Sea Tankers</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="space-y-2 text-muted-foreground">
+                      <li>• Lenaneft DWT 3,300 / Draft 3.2 meters</li>
+                      <li>• Volgoneft DWT 4,300 / Draft 3.6 meters</li>
+                      <li>• Oil Tanker Built 1995 DWT 4,700 / Draft 4.2 meters</li>
+                      <li>• Oil Tanker Built 2013 DWT 4,500 / Draft 4.2 meters</li>
+                      <li>• ST-1321 Oil/Chemical tanker type 2 / Draft 4.2 meters</li>
+                      <li>• Sea Tanker DWT 9,657 / Draft 6.2 meters</li>
+                      <li>• LPG Tanker DWT 4,444 / Draft 5.8 meters</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -172,7 +188,7 @@ const Index = () => {
             <div>
               <h3 className="text-3xl font-bold mb-6">Get in Touch</h3>
               <p className="text-lg mb-8 opacity-90">
-                Have questions or need a quote? Our team is ready to assist you with all your shipping needs.
+                Have questions or need a quote? Contact Director Oleg Trymbach and our team for all your shipping needs.
               </p>
               
               <div className="space-y-6">
@@ -181,18 +197,19 @@ const Index = () => {
                     <Icon name="MapPin" size={24} />
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg mb-1">Address</h4>
-                    <p className="opacity-90">123 Harbor Drive, Maritime District<br />London, UK EC1A 1BB</p>
+                    <h4 className="font-bold text-lg mb-1">Registered Office</h4>
+                    <p className="opacity-90">Hong Kong</p>
+                    <p className="opacity-90 text-sm mt-1">Registered: August 5, 2021</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
-                    <Icon name="Phone" size={24} />
+                    <Icon name="User" size={24} />
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg mb-1">Phone</h4>
-                    <p className="opacity-90">+44 20 7946 0958<br />+44 20 7946 0959</p>
+                    <h4 className="font-bold text-lg mb-1">Director</h4>
+                    <p className="opacity-90">Oleg Trymbach</p>
                   </div>
                 </div>
                 
@@ -202,7 +219,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-1">Email</h4>
-                    <p className="opacity-90">info@seawayshipping.com<br />sales@seawayshipping.com</p>
+                    <p className="opacity-90">contact@t-shipping.com</p>
                   </div>
                 </div>
               </div>
