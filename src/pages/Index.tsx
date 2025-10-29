@@ -71,11 +71,11 @@ const Index = () => {
           <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img
-                src="https://cdn.poehali.dev/projects/03cd9110-39ff-4688-a7bc-321464d359c4/files/b46fff1a-71bb-4073-a25f-d82240b466e2.jpg"
-                alt="Bulk Carrier at Loading Port"
-                className="rounded-2xl shadow-2xl"
+                src="https://cdn.poehali.dev/files/8e4727ab-8e98-42e2-b120-00e97685eeb5.jpg"
+                alt="Maritime Operations at Sunset"
+                className="w-full h-full object-cover blur-sm hover:blur-none transition-all duration-500"
               />
             </div>
             <div>
