@@ -148,6 +148,13 @@ const Index = () => {
                     <CardTitle className="text-2xl text-primary">Ocean Bulkers</CardTitle>
                   </CardHeader>
                   <CardContent>
+                    <div className="mb-4 rounded-lg overflow-hidden">
+                      <img
+                        src="https://cdn.poehali.dev/files/edba8313-e51a-4c9c-b85b-78c36c52d5dc.jpg"
+                        alt="Ocean Bulker Vessel"
+                        className="w-full h-48 object-cover"
+                      />
+                    </div>
                     <ul className="space-y-2 text-muted-foreground">
                       <li>• DWT 24,000 / Draft 9.0 meters</li>
                       <li>• DWT 10,000 / Draft 8.3 meters</li>
