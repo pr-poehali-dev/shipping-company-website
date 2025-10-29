@@ -1,22 +1,13 @@
-import { useState } from 'react';
+
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
+
 import Icon from '@/components/ui/icon';
 
 const Index = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    alert('Thank you for your message! We will contact you soon.');
-    setFormData({ name: '', email: '', message: '' });
   };
 
   return (
@@ -239,10 +230,10 @@ const Index = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">Contact Us</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
           
-          <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             <div>
-              <h3 className="text-3xl font-bold mb-6">Get in Touch</h3>
-              <p className="text-lg mb-8 opacity-90">
+              <h3 className="text-3xl font-bold mb-6 text-center">Get in Touch</h3>
+              <p className="text-lg mb-8 opacity-90 text-center">
                 Have questions or need a quote? Our team is ready to assist you with all your shipping needs.
               </p>
               
@@ -270,51 +261,7 @@ const Index = () => {
               </div>
             </div>
             
-            <Card className="bg-white">
-              <CardHeader>
-                <CardTitle className="text-2xl text-primary">Send us a Message</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-4">
-                  <div>
-                    <Input
-                      placeholder="Your Name"
-                      value={formData.name}
-                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      required
-                      className="text-lg py-6"
-                    />
-                  </div>
-                  <div>
-                    <Input
-                      type="email"
-                      placeholder="Your Email"
-                      value={formData.email}
-                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      required
-                      className="text-lg py-6"
-                    />
-                  </div>
-                  <div>
-                    <Textarea
-                      placeholder="Your Message"
-                      value={formData.message}
-                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      required
-                      rows={6}
-                      className="text-lg"
-                    />
-                  </div>
-                  <Button
-                    type="submit"
-                    size="lg"
-                    className="w-full bg-primary hover:bg-primary/90 text-white text-lg py-6"
-                  >
-                    Send Message
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
+
           </div>
         </div>
       </section>
