@@ -77,7 +77,7 @@ const Index = () => {
                 alt="Maritime Operations at Sunset"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute top-[35%] left-[15%] w-[25%] h-[15%] backdrop-blur-md"></div>
+              <div className="absolute top-[48%] left-[38%] w-[18%] h-[8%] backdrop-blur-md rounded"></div>
             </div>
             <div>
               <h3 className="text-3xl font-bold mb-6 text-primary">About T-SHIPPING LIMITED</h3>
