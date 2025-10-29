@@ -200,8 +200,12 @@ const Index = () => {
             </Card>
 
             <Card className="border-2 overflow-hidden">
-              <div className="h-48 bg-gradient-to-br from-accent to-accent/70 flex items-center justify-center">
-                <Icon name="Droplet" className="text-white" size={80} />
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/381a31de-a2da-4a9c-a914-453de68e56a2.jpg"
+                  alt="Oil & Chemical Tanker"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <CardHeader>
                 <CardTitle className="text-xl text-primary">Oil & Chemical Tankers</CardTitle>
