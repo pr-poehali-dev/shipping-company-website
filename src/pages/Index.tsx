@@ -188,7 +188,7 @@ const Index = () => {
             <div>
               <h3 className="text-3xl font-bold mb-6">Get in Touch</h3>
               <p className="text-lg mb-8 opacity-90">
-                Have questions or need a quote? Contact Director Oleg Trymbach and our team for all your shipping needs.
+                Have questions or need a quote? Our team is ready to assist you with all your shipping needs.
               </p>
               
               <div className="space-y-6">
@@ -198,18 +198,8 @@ const Index = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-1">Registered Office</h4>
-                    <p className="opacity-90">Hong Kong</p>
+                    <p className="opacity-90">Flat/RM 38 BM/F 368-374 Lockhart Road<br />Wanchai, Hong Kong</p>
                     <p className="opacity-90 text-sm mt-1">Registered: August 5, 2021</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
-                    <Icon name="User" size={24} />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-lg mb-1">Director</h4>
-                    <p className="opacity-90">Oleg Trymbach</p>
                   </div>
                 </div>
                 
@@ -219,7 +209,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-1">Email</h4>
-                    <p className="opacity-90">contact@t-shipping.com</p>
+                    <p className="opacity-90">tshippinghk@gmail.com</p>
                   </div>
                 </div>
               </div>
