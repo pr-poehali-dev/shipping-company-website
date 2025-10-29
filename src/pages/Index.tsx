@@ -75,7 +75,7 @@ const Index = () => {
               <img
                 src="https://cdn.poehali.dev/files/8e4727ab-8e98-42e2-b120-00e97685eeb5.jpg"
                 alt="Maritime Operations at Sunset"
-                className="w-full h-full object-cover blur-sm hover:blur-none transition-all duration-500"
+                className="w-full h-full object-cover blur-sm"
               />
             </div>
             <div>
