@@ -184,8 +184,12 @@ const Index = () => {
           
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card className="border-2 overflow-hidden">
-              <div className="h-48 bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center">
-                <Icon name="Ship" className="text-white" size={80} />
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/5eba32aa-4a9c-4134-a35b-10ea26c31a78.jpg"
+                  alt="Ocean Bulker Vessel"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <CardHeader>
                 <CardTitle className="text-xl text-primary">Ocean Bulkers</CardTitle>
