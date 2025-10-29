@@ -15,7 +15,11 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-primary/95 backdrop-blur-sm z-50 shadow-lg">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <Icon name="Anchor" className="text-white" size={32} />
+            <img 
+              src="https://cdn.poehali.dev/files/d04fd0d6-4a62-49f2-ae62-9752b4b014ff.jpg"
+              alt="T-Shipping Logo"
+              className="w-10 h-10 rounded-full object-cover"
+            />
             <h1 className="text-2xl font-bold text-white">T-SHIPPING LIMITED</h1>
           </div>
           <div className="hidden md:flex gap-6">
