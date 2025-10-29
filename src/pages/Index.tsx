@@ -45,7 +45,7 @@ const Index = () => {
         id="home"
         className="min-h-screen flex items-center justify-center relative bg-cover bg-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(10, 37, 64, 0.7), rgba(10, 37, 64, 0.7)), url('https://cdn.poehali.dev/projects/03cd9110-39ff-4688-a7bc-321464d359c4/files/8c1dd12c-1e42-42fc-9930-458d110e094c.jpg')`,
+          backgroundImage: `linear-gradient(rgba(10, 37, 64, 0.7), rgba(10, 37, 64, 0.7)), url('https://cdn.poehali.dev/files/96ac2399-5eb1-4fb4-85ca-ec3731d48650.jpg')`,
         }}
       >
         <div className="container mx-auto px-4 text-center text-white">
@@ -177,7 +177,50 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-primary">Our Fleet</h2>
+          <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
+          
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <Card className="border-2 overflow-hidden">
+              <div className="h-48 bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center">
+                <Icon name="Ship" className="text-white" size={80} />
+              </div>
+              <CardHeader>
+                <CardTitle className="text-xl text-primary">Ocean Bulkers</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">Modern bulk carriers designed for efficient cargo transportation across global routes.</p>
+              </CardContent>
+            </Card>
 
+            <Card className="border-2 overflow-hidden">
+              <div className="h-48 bg-gradient-to-br from-accent to-accent/70 flex items-center justify-center">
+                <Icon name="Droplet" className="text-white" size={80} />
+              </div>
+              <CardHeader>
+                <CardTitle className="text-xl text-primary">Oil & Chemical Tankers</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">Specialized vessels for safe transportation of petroleum products and chemicals.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 overflow-hidden">
+              <div className="h-48 bg-gradient-to-br from-primary/80 to-accent/60 flex items-center justify-center">
+                <Icon name="Waves" className="text-white" size={80} />
+              </div>
+              <CardHeader>
+                <CardTitle className="text-xl text-primary">LPG Tankers</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">Advanced vessels equipped for liquefied petroleum gas transportation worldwide.</p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
 
       <section id="contact" className="py-20 bg-primary text-white">
         <div className="container mx-auto px-4">
