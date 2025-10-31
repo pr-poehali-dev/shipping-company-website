@@ -195,7 +195,7 @@ const Index = () => {
                 />
               </div>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Ocean Bulkers</CardTitle>
+                <CardTitle className="text-xl text-primary">Ocean-going bulk carriers</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">Modern bulk carriers designed for efficient cargo transportation across global routes.</p>
