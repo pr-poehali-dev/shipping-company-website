@@ -131,8 +131,14 @@ const Index = () => {
                 </div>
               </CardHeader>
               <CardContent>
+                <p className="text-base text-muted-foreground leading-relaxed mb-4">
+                  T-SHIPPING LIMITED's Technical Management team provides technical supervision and management of the vessels to ensure their operation in the safe and most efficient manner meeting the shipowners' expectations and requirements, as well as the statutory and classification societies' requirements.
+                </p>
+                <p className="text-base text-muted-foreground leading-relaxed mb-4">
+                  Ensuring compliance with the Port Regulations governing cargo operations as well as the requirements of the charterers and other interested parties in full compliance with the International Safety Management Code.
+                </p>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  T-SHIPPING LIMITED manages and provides technical supervision of the vessels in the safest and most efficient way possible to meet the requirements of the shipowner, as well as the registry societies and flag state regulations of the vessel. Also the rules of the port of loading and discharging, charterers and other interested parties in full compliance with the International Safety Management Code. Our team closely monitors compliance with the MLC regulations.
+                  Our team closely monitors compliance with the MLC regulations.
                 </p>
               </CardContent>
             </Card>
