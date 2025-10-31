@@ -64,7 +64,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img
-                src="https://cdn.poehali.dev/files/c4d75b44-f6ef-43e4-a7f5-efe5be5cb6c9.jpg"
+                src="https://cdn.poehali.dev/files/d7cd55aa-bd13-4788-bf55-3a87b9624331.jpeg"
                 alt="Maritime Operations at Sunset"
                 className="w-full h-full object-cover"
               />
