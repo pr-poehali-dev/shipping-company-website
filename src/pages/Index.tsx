@@ -173,7 +173,7 @@ const Index = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-primary">Our Fleet</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
           
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
             <Card className="border-2 overflow-hidden">
               <div className="h-48 overflow-hidden">
                 <img 
@@ -219,6 +219,18 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">Advanced vessels equipped for liquefied petroleum gas transportation worldwide.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 overflow-hidden">
+              <div className="h-48 overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
+                <Icon name="Ship" className="text-primary" size={64} />
+              </div>
+              <CardHeader>
+                <CardTitle className="text-xl text-primary">Tankers</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">Comprehensive tanker fleet for various liquid cargo transportation needs.</p>
               </CardContent>
             </Card>
           </div>
