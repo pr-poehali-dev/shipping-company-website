@@ -61,7 +61,7 @@ const Index = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-primary">About Us</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
           
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img
                 src="https://cdn.poehali.dev/files/d7cd55aa-bd13-4788-bf55-3a87b9624331.jpeg"
@@ -86,6 +86,14 @@ const Index = () => {
                 </p>
               </div>
             </div>
+          </div>
+          
+          <div className="relative overflow-hidden rounded-2xl shadow-2xl max-w-4xl mx-auto">
+            <img
+              src="https://cdn.poehali.dev/files/86f2fb44-f259-4fa6-a40b-f05d122a2796.jpeg"
+              alt="Cargo Operations"
+              className="w-full h-auto object-cover"
+            />
           </div>
         </div>
       </section>
