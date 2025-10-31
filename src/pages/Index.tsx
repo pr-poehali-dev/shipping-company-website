@@ -72,17 +72,17 @@ const Index = () => {
             <div>
               <h3 className="text-3xl font-bold mb-6 text-primary">About T-SHIPPING LIMITED</h3>
               <p className="text-lg mb-4 text-muted-foreground leading-relaxed">
-                T-SHIPPING LIMITED was registered in Hong Kong on August 5, 2021. We have extensive experience in managing vessels such as Tankers, Chemical Tankers and LPG tankers. Since 2022, we also began managing dry cargo vessels.
+                T-SHIPPING LIMITED was registered in Hong Kong on August 5, 2021. Our company has got extensive experience in managing vessels such as Tankers, Chemical Tankers and LPG tankers. Since 2022, we had been managing dry cargo vessels as well.
               </p>
               <div className="space-y-3 mb-6">
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  <strong className="text-primary">Director:</strong> Graduate of the Maritime Academy, department of Economics Management on Maritime Transport. Since 2010, has been working as a director in various shipping companies.
+                  <strong className="text-primary">Director:</strong> Graduate of a Maritime Academy, Master's degree in Marine Transportation Economics and Fleet Management. Since 2010, had been working as a director with various shipping companies.
                 </p>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  <strong className="text-primary">DPA:</strong> Extensive experience in tanker operations worldwide, vessel master in container transportation with US shipping companies, and offshore construction vessels/drilling rigs master. USCG certified unlimited master with DPA certification from Quebec, CA Virtual Maritime Academy.
+                  <strong className="text-primary">DPA:</strong> Vast experience in tanker operations worldwide, vessel master with US shipping companies engaged in container trade. Master of the Dynamically Positioned dive support and offshore construction vessels, drilling rigs. USCG certified Master Unlimited/Offshore Installation Manager with DPA certification from Quebec, Canada Maritime Academy. OCIMF certified OVID inspector and SOMWS (Society of Offshore Marine Warranty Surveyors) Associate Marine Surveyor. Marine and Technical Manager with various US Offshore Construction Companies.
                 </p>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  <strong className="text-primary">Technical Manager:</strong> Graduate of Maritime Academy, faculty of Marine Engineering. Past five years working as Senior Chief Engineer aboard VLCCs tankers with vast experience as technical manager in large shipping companies.
+                  <strong className="text-primary">Technical Manager:</strong> Graduate of a Maritime Academy, Master's degree in Marine Engineering. Senior Chief Engineer aboard VLCCs tankers for the past five years. Vast experience as technical manager with large shipping companies worldwide.
                 </p>
               </div>
             </div>
@@ -107,11 +107,20 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-base text-muted-foreground leading-relaxed mb-4">
-                  T-SHIPPING LIMITED provides services of cargo transportation by its own sea vessel as well as transportation of cargoes by sea and river vessels of our partners. We also provide commercial management, including chartering and operation of vessels.
+                  T-SHIPPING LIMITED's Commercial Management provides services of cargo transportation by its own ocean-going vessel as well as by the ocean-going and river vessels of our associates and business partners. We also provide commercial management including fleet chartering and operation.
+                </p>
+                <p className="text-base text-muted-foreground leading-relaxed mb-4">
+                  Our chartering team identifies and assess opportunities for profitable charters, negotiates and arranges contracts for the cargoes marine transportation. Also, T-Shipping has got well established contacts with major oil companies and commodity traders around the world and arranges charter contracts on both spot market and long term charters.
                 </p>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  Our chartering team identifies and evaluates opportunities to conclude profitable charters, negotiates and concludes contracts for sea transportation. The company has contacts with major oil companies and commodity traders around the world and concludes charter contracts on both spot market and long term charters. The operations team is responsible for: supporting officers and crew on board for safe and efficient voyage performance; ensuring monitoring of port charges; providing high quality bunker at economical prices; monitoring compliance with all terms and conditions in accordance with charter parties.
+                  Our operations team is an expert in the vessels' operation support tasks, as follows:
                 </p>
+                <ul className="list-disc list-inside space-y-2 text-base text-muted-foreground leading-relaxed ml-4">
+                  <li>24/7 support of the shipboard personnel to ensure safe and efficient voyage performance</li>
+                  <li>monitoring vessels' port charges</li>
+                  <li>ensuring vessels' bunkering with high quality bunkers at economical price</li>
+                  <li>monitoring vessels' operation for thorough compliance with the charter parties' terms and conditions</li>
+                </ul>
               </CardContent>
             </Card>
 
