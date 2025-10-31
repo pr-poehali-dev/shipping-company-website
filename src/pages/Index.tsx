@@ -232,8 +232,12 @@ const Index = () => {
             </Card>
 
             <Card className="border-2 overflow-hidden">
-              <div className="h-48 overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                <Icon name="Ship" className="text-primary" size={64} />
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/dfe2c87a-eb51-4ba8-a2fb-77639c8a9483.jpeg"
+                  alt="Tanker"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <CardHeader>
                 <CardTitle className="text-xl text-primary">Tankers</CardTitle>
