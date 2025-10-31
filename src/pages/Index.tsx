@@ -218,7 +218,7 @@ const Index = () => {
             <Card className="border-2 overflow-hidden">
               <div className="h-48 overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/files/2986a3dc-ec00-4a15-8b74-e3e1a24622b7.jpg"
+                  src="https://cdn.poehali.dev/files/006b0b91-4ce2-47d9-a1b1-071ebdef48e8.jpeg"
                   alt="LPG Tanker"
                   className="w-full h-full object-cover"
                 />
