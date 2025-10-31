@@ -148,7 +148,7 @@ const Index = () => {
               <div className="grid md:grid-cols-2 gap-6">
                 <Card className="border-2">
                   <CardHeader>
-                    <CardTitle className="text-2xl text-primary">Ocean-going bulk carriers</CardTitle>
+                    <CardTitle className="text-2xl text-primary">Ocean Bulkers</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2 text-muted-foreground">
