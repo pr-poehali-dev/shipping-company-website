@@ -110,10 +110,7 @@ const Index = () => {
                   T-SHIPPING LIMITED's Commercial Management provides services of cargo transportation by its own ocean-going vessel as well as by the ocean-going and river vessels of our associates and business partners. We also provide commercial management including fleet chartering and operation.
                 </p>
                 <p className="text-base text-muted-foreground leading-relaxed mb-4">
-                  Our chartering team identifies and assess opportunities for profitable charters, negotiates and arranges contracts for the cargoes marine transportation. Also, T-Shipping has got well established contacts with major oil companies and commodity traders around the world and arranges charter contracts on both spot market and long term charters.
-                </p>
-                <p className="text-base text-muted-foreground leading-relaxed">
-                  Our operations team is an expert in the vessels' operation support tasks, as follows:
+                  Our chartering team identifies and assess opportunities for profitable charters, negotiates and arranges contracts for the cargoes marine transportation. Also, T-Shipping has got well established contacts with major oil companies and commodity traders around the world and arranges charter contracts on both spot market and long term charters. Our operations team is an expert in the vessels' operation support tasks, as follows:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-base text-muted-foreground leading-relaxed ml-4">
                   <li>24/7 support of the shipboard personnel to ensure safe and efficient voyage performance</li>
