@@ -186,7 +186,7 @@ const Index = () => {
             <Card className="border-2 overflow-hidden">
               <div className="h-48 overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/files/5eba32aa-4a9c-4134-a35b-10ea26c31a78.jpg"
+                  src="https://cdn.poehali.dev/files/6459885c-14ef-42f9-8828-ac74564be751.jpeg"
                   alt="Ocean Bulker Vessel"
                   className="w-full h-full object-cover"
                 />
