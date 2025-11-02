@@ -264,6 +264,51 @@ const Index = () => {
                 Have questions or need a quote? Our team is ready to assist you with all your shipping needs.
               </p>
               
+              <Card className="bg-white/10 backdrop-blur-sm border-white/20 mb-8">
+                <CardContent className="pt-6">
+                  <form className="space-y-4">
+                    <div>
+                      <label className="block text-sm font-semibold mb-2">Name</label>
+                      <input 
+                        type="text" 
+                        className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder:text-white/60 focus:outline-none focus:ring-2 focus:ring-accent"
+                        placeholder="Your name"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold mb-2">Email</label>
+                      <input 
+                        type="email" 
+                        className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder:text-white/60 focus:outline-none focus:ring-2 focus:ring-accent"
+                        placeholder="your@email.com"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold mb-2">Company</label>
+                      <input 
+                        type="text" 
+                        className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder:text-white/60 focus:outline-none focus:ring-2 focus:ring-accent"
+                        placeholder="Your company name"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold mb-2">Message</label>
+                      <textarea 
+                        rows={4}
+                        className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder:text-white/60 focus:outline-none focus:ring-2 focus:ring-accent resize-none"
+                        placeholder="Tell us about your shipping needs..."
+                      ></textarea>
+                    </div>
+                    <Button 
+                      type="submit" 
+                      className="w-full bg-accent hover:bg-accent/90 text-white py-6 text-lg rounded-lg"
+                    >
+                      Send Message
+                    </Button>
+                  </form>
+                </CardContent>
+              </Card>
+
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
