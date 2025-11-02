@@ -182,7 +182,6 @@ const Index = () => {
 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-primary">Our Fleet</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
